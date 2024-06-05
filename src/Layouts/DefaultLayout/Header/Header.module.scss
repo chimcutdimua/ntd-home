@@ -1,0 +1,29 @@
+.wrapper {
+    padding: 20px 200px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    box-shadow: 0 0 10px 5px #00000080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: rgb(121, 89, 195);
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    align-items: center;
+    display: flex;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions-right {
+    margin-left: auto;
+}
