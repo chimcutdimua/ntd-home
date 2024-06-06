@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Button from "~/components/Button";
 import {
+  faClipboardQuestion,
   faHouse,
   faListCheck,
   faPhone,
@@ -28,7 +29,7 @@ function Header() {
           <Button href="#feature" leftIcon={<FontAwesomeIcon icon={faListCheck} />}>
             Tính năng
           </Button>
-          <Button href="#questions" leftIcon={<FontAwesomeIcon icon={faListCheck} />}>
+          <Button href="#questions" leftIcon={<FontAwesomeIcon icon={faClipboardQuestion} />}>
             Câu hỏi
           </Button>
           <Button href="https://www.facebook.com/chotnhanh.vn" target="_blank" leftIcon={<FontAwesomeIcon icon={faPhone} />}>Liên hệ</Button>

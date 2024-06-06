@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames/bind";
 import styles from "./Nav.module.scss";
+import Button from "~/components/Button";
 const cx = classNames.bind(styles);
 
 function Nav() {
@@ -209,7 +210,7 @@ function Nav() {
       <button className={cx("questions-btn")}>DÙNG NGAY MIỄN PHÍ</button>
       </div>
       <footer className={cx("footer")}>
-        <div className={cx("footer-content")}>BY CHOT NHANH</div>
+        <a href="https://www.chotnhanh.vn/" target="_blank" className={cx("footer-btn")}>BY CHOT NHANH</a>
       </footer>
     </>
   );
