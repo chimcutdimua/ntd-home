@@ -8,20 +8,221 @@
 }
 
 .title {
-    margin-top: 16px;
-    font-size: 1.6rem;
-    text-align: center;
-    font-weight: 600;
+  margin-top: 16px;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .img-container {
   margin-top: 16px;
-  width: 17%;
+  width: 35%;
 }
 
 .title-container {
   margin-top: 16px;
   text-align: center;
-  // font-size: 2rem;
+  font-size: 2.6rem;
   text-transform: uppercase;
+}
+
+.feature {
+  padding: 30px 200px;
+}
+
+.line {
+  padding: 3px;
+  width: 130px;
+  background: red;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-items {
+  padding: 0.5rem;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  border: 2px dotted rgb(0, 0, 0);
+  border-radius: 14px;
+  background-color: #f8f9fa;
+
+  &:hover {
+    box-shadow: 0 0 10px #00000080;
+    transform: translateY(-5px);
+  }
+}
+
+.image-item {
+  width: 95%;
+}
+
+.main-btn {
+  display: flex;
+  font-size: 1.5rem;
+  width: max-content;
+  padding: 10px 20px;
+  color: var(--white);
+  background: rgb(84, 34, 205);
+  border-radius: 9999px;
+  border: 2px dashed #fff;
+  margin: 0px auto;
+
+  &:hover {
+    cursor: pointer;
+    background: rgb(121, 89, 195);
+  }
+}
+
+
+.benefit-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.benefit-content {
+  line-height: 22px;
+  font-size: 1.4rem;
+  margin-top: 16px;
+}
+
+.benefit-image {
+  width: 200px;
+}
+
+.benefit {
+  padding: 30px 200px;
+  width: 100%;
+
+}
+
+.benefit-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Chia container thành 3 cột bằng nhau */
+  grid-gap: 10px; /* Khoảng cách giữa các ô */
+  padding: 10px; /* Khoảng cách giữa container và nội dung bên trong */
+}
+
+.benefit-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-width: 2px 0px 2px 2px;
+  border-top-style: dotted;
+  border-right-style: initial;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: initial;
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-image: initial;
+  height: 80%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-sizing: border-box;
+  padding: .5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.benefit-2 {
+  border: 2px dotted rgb(0, 0, 0);
+  height: 690px;
+  border-radius: 20px;
+  // padding: .5rem;
+  // padding-top: 1.5rem;
+  // padding-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.line-2 {
+  padding: 1px;
+  background: #333;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.benefit-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-width: 2px 2px 2px 0px;
+  border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: initial;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: initial;
+  border-image: initial;
+  height: 80%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-sizing: border-box;
+  padding: .5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.questions {
+  padding: 30px 200px;
+  width: 100%;
+}
+
+.questions-title {
+  background-color: rgb(121, 89, 195);
+  padding: 15px 20px;
+  color: var(--white);
+}
+
+.questions-content {
+  background-color: #ccc;
+  padding: 15px 20px;
+  font-size: 1.5rem;
+}
+
+.questions-btn {
+  display: flex;
+  font-size: 2rem;
+  width: max-content;
+  padding: 17px 150px;
+  color: var(--white);
+  background: rgb(84, 34, 205);
+  border-radius: 9999px;
+  border: 2px dashed #fff;
+  margin: 40px auto;
+
+  &:hover {
+    cursor: pointer;
+    background: rgb(121, 89, 195);
+  }
+}
+
+.footer {
+  padding: 5px 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
 }

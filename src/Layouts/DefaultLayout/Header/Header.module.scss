@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 20px 200px;
+    padding: 1 200px;
     display: flex;
     justify-content: center;
     height: 70px;
@@ -26,4 +26,11 @@
 
 .actions-right {
     margin-left: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 4px 24px;
 }
